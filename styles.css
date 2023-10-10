@@ -1,0 +1,33 @@
+#header {
+    background-color: #333;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+#content {
+    background-color: black;
+    min-height: 400px;
+    padding: 20px;
+}
+#left {
+    float: left;
+    width: 50%;
+    background-color: #e0e0e0;
+    height: 300px;
+    text-align: center;
+}
+
+#right {
+    float: right;
+    width: 50%;
+    background-color: #d0d0d0;
+    height: 300px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
